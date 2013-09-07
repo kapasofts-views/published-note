@@ -1,10 +1,5 @@
-
-
-        <div class="row">
-            <div class="span3">
-
-            </div>
-            <div class="span9">
+<div class="row">
+            <div class="span4">
                     <?php if (!empty($page['highlighted'])): ?>
                         <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
                     <?php endif; ?>
@@ -21,4 +16,4 @@
                     <?php endif; ?>
                     <?php print render($page['content']); ?>
             </div>
-        </div>
+ </div>

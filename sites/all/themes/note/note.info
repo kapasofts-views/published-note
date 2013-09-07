@@ -11,20 +11,15 @@ regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
-regions[property_menu] = 'Property Menu'
 regions[header_logo]    = 'Header Logo'
-regions[other_menu]          = 'Other Menu'
-regions[leave_testimonial]          = 'Leave Testimonial'
-regions[unit_inquiry]          = 'Unit Inquiry'
-regions[diary_list_front] = "Diary Front Page"
-regions[article_menu] = "Article Menu"
+regions[lang_menu] = "Language Menu"
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/custom.css
 
 
 ; JS
-scripts[] = js/contact-config.js
+;scripts[] = js/contact-config.js
 scripts[] = js/google-tracking.js
 scripts[] = js/lib/underscore-min.js
 scripts[] = js/lib/backbone-min.js

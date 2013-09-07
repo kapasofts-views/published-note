@@ -125,15 +125,15 @@ header {
   height:231px;
 }
 .full-width,
-.gallery { width:473px; background:transparent !important; }
+.gallery { width:495px; background:transparent !important; }
 .tab { background:transparent !important;}
 .col1 { 
   float:left;
-  width:221px;
-  margin-right:30px;
+  width:235px;
+  margin-right:20px;
 }
 .col2 { 
-  width:222px; 
+  width:235px;
   float:left;
 }
 .col1 > *,

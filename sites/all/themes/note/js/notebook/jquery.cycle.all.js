@@ -973,7 +973,7 @@ $.fn.cycle.ver = function() { return ver; };
 
 // override these globally if you like (they are all optional)
 $.fn.cycle.defaults = {
-	activePagerClass: 'activeSlide', // class name used for the active pager link
+	activePagerClass: '1activeSlide', // class name used for the active pager link
 	after:		   null,  // transition callback (scope set to element that was shown):  function(currSlideElement, nextSlideElement, options, forwardFlag)
 	allowPagerClickBubble: false, // allows or prevents click event on pager anchors from bubbling
 	animIn:		   null,  // properties that define how the slide animates in
@@ -1008,12 +1008,14 @@ $.fn.cycle.defaults = {
 	onPrevNextEvent: null,// callback fn for prev/next events: function(isNext, zeroBasedSlideIndex, slideElement)
 	pager:		   null,  // element, jQuery object, or jQuery selector string for the element to use as pager container
 	pagerAnchorBuilder: null, // callback fn for building anchor links:  function(index, DOMelement)
-	pagerEvent:	  'click.cycle', // name of event which drives the pager navigation
-	pause:		   0,	  // true to enable "pause on hover"
+//	pagerEvent:	  'click.cycle', // name of event which drives the pager navigation
+    pagerEvent:	  '', // name of event which drives the pager navigation
+    pause:		   0,	  // true to enable "pause on hover"
 	pauseOnPagerHover: 0, // true to pause when hovering over pager link
 	prev:		   null,  // element, jQuery object, or jQuery selector string for the element to use as event trigger for previous slide
-	prevNextEvent:'click.cycle',// event which drives the manual transition to the previous or next slide
-	random:		   0,	  // true for random, false for sequence (not applicable to shuffle fx)
+//	prevNextEvent:'click.cycle',// event which drives the manual transition to the previous or next slide
+	prevNextEvent:'',// event which drives the manual transition to the previous or next slide
+    random:		   0,	  // true for random, false for sequence (not applicable to shuffle fx)
 	randomizeEffects: 1,  // valid when multiple effects are used; true to make the effect sequence random
 	requeueOnImageNotLoaded: true, // requeue the slideshow if any image slides are not yet loaded
 	requeueTimeout: 250,  // ms delay for requeue

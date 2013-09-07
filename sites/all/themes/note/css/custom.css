@@ -13,6 +13,42 @@ header{
     margin-bottom: 0px;
 }
 
+#pages{
+    position: relative;
+    top:-20px;
+}
+
+hgroup h1{
+    width:90%;
+}
+
+hgroup{
+    margin-bottom: 20px;
+}
+
+.ru hgroup h1{
+    font-size:34px;
+}
+
+.ru dt, .ru dd, .ru li, .ru a{
+    font-size: 12px;
+}
+
+.ru dd{
+    margin-left:30px;
+}
+
+textarea.message-input{
+    margin-bottom: 0px;
+    position: relative;
+    top:-10px;
+    font-size: 14px;
+}
+
+.ru h2{
+    font-size: 16px;
+}
+
 div#app-contact input, div#app-contact textarea{
     /*display:block;*/
     /*width:200px;*/
@@ -27,7 +63,7 @@ div#app-contact input, div#app-contact textarea{
     /*height: 300px;*/
 }
 
-.modal{
+.modal-zinojums{
     left:33%;
     background-color: transparent;
 }
@@ -50,3 +86,16 @@ div#app-contact input, div#app-contact textarea{
 a.b-nonemt{
     text-decoration:none;
 }
+
+li.muted-img img{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+
+/********Lang Select Block***********/
+#lang-switcher{
+    border:none;
+    margin-left:-40px;
+    margin-bottom: 0px;
+}
+

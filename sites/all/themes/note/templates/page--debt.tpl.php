@@ -16,7 +16,7 @@
                     ?>
                 </dl>
                 <?php echo '<h2>'.$debt['events']['title'].'</h2>';?>
-                <dl>
+                <dl class="events">
                     <?php
                     foreach($debt['events']['list'] as $key => $item){
                         echo '<dt>'.$item['term'].'</dt><dd>'.$item['description'].'</dd>';

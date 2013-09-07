@@ -34,8 +34,8 @@ hgroup{
     font-size: 12px;
 }
 
-.ru dd{
-    margin-left:30px;
+.ru dl.events dd{
+    margin-left:20px;
 }
 
 textarea.message-input{
